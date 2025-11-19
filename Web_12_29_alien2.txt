@@ -1,0 +1,10 @@
+
+ * Az oldal háttérszíne darkgoldenrod (vagy valamilyen)!
+ * A fehér rész, vékony fekete kerettel, 200px széles,
+   középre igazított és 10px belső margójú!
+ * Négy kép van benne: alien1 / alien2 / alien3 / alien4!
+ * Ha valamelyikre rákattintunk,
+   akkor változzon eggyel nagyobb számú képpé!
+   (alien1->2, alien2->3, alien3->4, alien4->1)
+
+ Publikáljuk az oldalt a github szerverén!
