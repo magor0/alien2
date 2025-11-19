@@ -17,14 +17,24 @@
             padding: 10px;
         }
     </style>
+    <script>
+        let szamok = [0, 1, 2, 3, 4];
+        function katt(id) {
+            szamok[id]++;
+            if (szamok[id] == 5) {
+                szamok[id] = 1;
+            }
+            document.getElementById(`kep${id}`).src = `alien${szamok[id]}.png`;
+        }
+    </script>
 </head>
 <body>
     
     <div id="aliens">
-        <img src="alien1.png">
-        <img src="alien2.png">
-        <img src="alien3.png">
-        <img src="alien4.png">
+        <img id="kep1" src="alien1.png" onclick="katt(1);">
+        <img id="kep2" src="alien2.png" onclick="katt(2);">
+        <img id="kep3" src="alien3.png" onclick="katt(3);">
+        <img id="kep4" src="alien4.png" onclick="katt(4);">
     </div>
 
 </body>
